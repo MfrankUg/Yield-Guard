@@ -9,7 +9,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // --- Coffee Storage Optimal Ranges ---
-// You can adjust these numbers based on your specific roast or preferences!
+
 const float MIN_TEMP = 15.0;  // Minimum safe temperature in Celsius
 const float MAX_TEMP = 25.0;  // Maximum safe temperature in Celsius
 const float MIN_HUM  = 40.0;  // Minimum safe humidity percentage
