@@ -52,7 +52,7 @@ void loop() {
   Serial.print(" %  -->  Status: ");
 
   // --- The Alarm Logic ---
-  // Check if temperature or humidity are OUTSIDE the optimal ranges
+  // Check if temperature or humidity are OUTSIDE the optimal ranges.
   bool isTempBad = (tempC < MIN_TEMP || tempC > MAX_TEMP);
   bool isHumBad  = (humidity < MIN_HUM || humidity > MAX_HUM);
 
